@@ -1,0 +1,216 @@
+{
+  "metadata": {
+    "university": "Chhatrapati Shahu Ji Maharaj University, Kanpur",
+    "programme": "M.Sc. Mathematics with Artificial Intelligence & Data Science",
+    "assignmentTitle": "Machine Learning Practical Assignment",
+    "subtitle": "Data Preprocessing & Feature Selection",
+    "tagline": "From Theory to Implementation",
+    "academicSession": "2026-27",
+    "lastUpdated": "2026-10-21T02:30:00+05:30",
+    "notice": "Sample demonstration data. Replace with official cohort records as required."
+  },
+  "projects": [
+    {
+      "id": "T001",
+      "teamNumber": 1,
+      "teamName": "2nd Group",
+      "verificationStatus": "verified",
+      "submittedAt": "2026-10-06T16:09:33+05:30",
+      "problemStatement": "To analyze the Titanic dataset, perform data preprocessing and feature selection, and study the relationship between passenger features and survival using statistical methods and machine learning concepts.",
+      "fullDescription": "To analyze the Titanic dataset, perform data preprocessing and feature selection, and study the relationship between passenger features and survival using statistical methods and machine learning concepts.",
+      "dataset": {
+        "name": " Titanic - Machine Learning from Disaster",
+        "fileName": "train.csv",
+        "sourceUrl": "https://www.kaggle.com/c/titanic/data?utm_source=chatgpt.com&select=train.csv",
+        "targetVariable": "Survived"
+      },
+      "members": [
+        {
+          "name": "Anushka Gangwar",
+          "enrollmentNumber": "CSJMA25000006142"
+        },
+        {
+          "name": "Dimpal Singh",
+          "enrollmentNumber": "CSJMA25000013582"
+        },
+        {
+          "name": "Prerana Gupta",
+          "enrollmentNumber": "CSJMA25000012860"
+        },
+        {
+          "name": "Manali Yadav",
+          "enrollmentNumber": "CSJMA25000006138"
+        }
+      ],
+      "links": {
+        "github": "https://github.com/gprerana621-beep/Machine-Learning-Assignment/tree/main",
+        "colab": "https://colab.research.google.com/drive/1zO2TOoBsDHqic2-zZgN-3xKpNNZTODRQ?usp=sharing",
+        "youtube": "https://youtu.be/XmjLfyrxH_A?feature=shared",
+        "dataset": "https://www.kaggle.com/c/titanic/data?utm_source=chatgpt.com&select=train.csv"
+      }
+    },
+    {
+      "id": "T002",
+      "teamNumber": 2,
+      "teamName": "DataMinds",
+      "verificationStatus": "verified",
+      "submittedAt": "2026-10-06T17:04:20+05:30",
+      "problemStatement": "Raw datasets may contain missing values, duplicates, outliers, and categorical data. This project focuses on preprocessing the Titanic dataset and selecting relevant features to predict passenger survival.",
+      "fullDescription": "Raw datasets may contain missing values, duplicates, outliers, and categorical data. This project focuses on preprocessing the Titanic dataset and selecting relevant features to predict passenger survival.",
+      "dataset": {
+        "name": "Titanic Dataset",
+        "fileName": "titanic.csv",
+        "sourceUrl": "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/titanic.csv",
+        "targetVariable": "Survived"
+      },
+      "members": [
+        {
+          "name": "Nisha Yadav",
+          "enrollmentNumber": "CSJMA25250089659"
+        },
+        {
+          "name": "Mansi Tiwari",
+          "enrollmentNumber": "CSJMA25000006149"
+        }
+      ],
+      "links": {
+        "github": "https://github.com/ishuyadu22-ai/ML-Preprocessing-Feature-Selection",
+        "colab": "https://colab.research.google.com/drive/1tXQbcXydEfV1VQ-JYtHAkSijHW_Nl_-r?usp=sharing",
+        "youtube": "https://youtu.be/x-thEDHl4kk",
+        "dataset": "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/titanic.csv"
+      }
+    },
+    {
+      "id": "T003",
+      "teamNumber": 3,
+      "teamName": "DataMates",
+      "verificationStatus": "verified",
+      "submittedAt": "2026-10-06T18:48:10+05:30",
+      "problemStatement": "people often follow unsuitable diets because personalized nutrition advice is not easily available. This can lead to poor health and ineffective diet management.",
+      "fullDescription": "people often follow unsuitable diets because personalized nutrition advice is not easily available. This can lead to poor health and ineffective diet management.",
+      "dataset": {
+        "name": "Personal diet recommendations model using logistics regression",
+        "fileName": "personalized-medical-diet-recommendations-dataset.csv",
+        "sourceUrl": "https://www.kaggle.com/datasets/ziya07/personalized-medical-diet-recommendations-dataset",
+        "targetVariable": "Recommended_Meal_Plan"
+      },
+      "members": [
+        {
+          "name": "Alok Singh",
+          "enrollmentNumber": "CSJMA25000006137"
+        },
+        {
+          "name": "Amrita Mishra",
+          "enrollmentNumber": "CSJMA25000006135"
+        },
+        {
+          "name": "Gauri Tripathi",
+          "enrollmentNumber": "CSJMA25000006134"
+        }
+      ],
+      "links": {
+        "github": "https://github.com/aloks018/ML-Preprocessing-Feature-Selection",
+        "colab": "https://colab.research.google.com/drive/1xCTkheKnvXF7S1C3v95MANRvb4mI-mrg",
+        "youtube": "https://youtu.be/FPNfcalr3sY?si=EJBDVDom3j3LFBFr",
+        "dataset": "https://www.kaggle.com/datasets/ziya07/personalized-medical-diet-recommendations-dataset"
+      }
+    },
+    {
+      "id": "T004",
+      "teamNumber": 4,
+      "teamName": "The Code of Duty ",
+      "verificationStatus": "verified",
+      "submittedAt": "2026-10-07T15:01:00+05:30",
+      "problemStatement": "Bank Churn feature selection ML Selection for predicting bank customer churn and identifying the most important features influencing customer retention ",
+      "fullDescription": "Bank Churn feature selection ML Selection for predicting bank customer churn and identifying the most important features influencing customer retention ",
+      "dataset": {
+        "name": "Bank customer Churn Modelling dataset ",
+        "fileName": "churn_modelling.csv",
+        "sourceUrl": "https://www.kaggle.com/datasets/shrutimechlearn/churn-modelling",
+        "targetVariable": "Exited ( Binary:0 and1)"
+      },
+      "members": [
+        {
+          "name": "Pallavi Yadav",
+          "enrollmentNumber": "CSJMA25250089803"
+        },
+        {
+          "name": "Shipra Tripathi",
+          "enrollmentNumber": "CSJMA25000006144"
+        }
+      ],
+      "links": {
+        "github": "https://github.com/pallavi2626/bank-churn-feature-selection-ml.git",
+        "colab": "https://colab.research.google.com/drive/1cfVFFJU9zcJi4tH3YHC6DKaKZ3XbYnHg",
+        "youtube": "https://youtu.be/Ta28WJD3rcQ?si=vmbhx-yMFJJvbcfR",
+        "dataset": "https://www.kaggle.com/datasets/shrutimechlearn/churn-modelling"
+      }
+    },
+    {
+      "id": "T005",
+      "teamNumber": 5,
+      "teamName": "Survival Squad",
+      "verificationStatus": "verified",
+      "submittedAt": "2026-10-07T21:09:45+05:30",
+      "problemStatement": "To predict whether a Titanic passenger survived or not using passenger information.",
+      "fullDescription": "To predict whether a Titanic passenger survived or not using passenger information.Our Objective is to preprocess the data, select important features, train a Logistic Regression model, and evaluate its performance.",
+      "dataset": {
+        "name": "Titanic Dataset (Titanic Survival Prediction Dataset)",
+        "fileName": "titanic.csv",
+        "sourceUrl": "https://www.kaggle.com/datasets/hellgeek/titanic",
+        "targetVariable": "Survived"
+      },
+      "members": [
+        {
+          "name": "Pranshi Dwivedi",
+          "enrollmentNumber": ""
+        },
+        {
+          "name": "Anshika Shukla",
+          "enrollmentNumber": ""
+        },
+        {
+          "name": "Rishabh Tiwari",
+          "enrollmentNumber": ""
+        },
+        {
+          "name": "Bhanu Pratap Singh Katiyar",
+          "enrollmentNumber": ""
+        }
+      ],
+      "links": {
+        "github": "https://github.com/pranshidwivedi018-source/ai_data-science-project/blob/main/Titanic_survial_Prediction%20(1).ipynb",
+        "colab": "",
+        "youtube": "https://youtu.be/lNKjJlZS7fs?si=MZyc13AImkK4kXwx",
+        "dataset": "https://www.kaggle.com/datasets/hellgeek/titanic"
+      }
+    },
+    {
+      "id": "T006",
+      "teamNumber": 6,
+      "teamName": "Data Forge",
+      "verificationStatus": "verified",
+      "submittedAt": "2026-10-15T15:40:15+05:30",
+      "problemStatement": "Given a dataset containing demographic, educational, occupational and financial information of individuals, our objective is to predict whether an individual's annual income is: Less than or equal to 50K or Greater than 50K based on the available attributes.",
+      "fullDescription": "The objective of this project is to perform end-to-end exploratory data analysis (EDA), data preprocessing, and feature selection on the Adult Census Income dataset. The project explores different statistical and machine learning techniques to identify potentially useful features for predicting whether an individual's annual income exceeds $50,000. The assignment starts with basic dataset understanding and gradually progresses toward preparing the data for classification models.",
+      "dataset": {
+        "name": "Adult Income Dataset",
+        "fileName": "adult_income.data",
+        "sourceUrl": "https://archive.ics.uci.edu/dataset/2/adult",
+        "targetVariable": "Income (<=50K or >50K)"
+      },
+      "members": [
+        {
+          "name": "Harshit Gupta",
+          "enrollmentNumber": "CSJMA25000006143"
+        }
+      ],
+      "links": {
+        "github": "https://github.com/dsharshitguptaa7/ml_assignment_01.git",
+        "colab": "https://colab.research.google.com/drive/1AOiI8A6nXDbXZPdAeeeR_KkY86ErOL5M?usp=sharing",
+        "youtube": "",
+        "dataset": "https://archive.ics.uci.edu/dataset/2/adult"
+      }
+    }
+  ]
+}

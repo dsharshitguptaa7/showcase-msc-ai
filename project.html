@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Project Details — Machine Learning Practical Assignment Showcase, M.Sc. Mathematics with AI & DS, CSJMU Kanpur.">
+  <meta name="theme-color" content="#233F91">
+  <title>Project Details — Machine Learning Practical Assignment | CSJMU</title>
+  <link rel="icon" type="image/png" href="assets/csjmu-logo.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Sticky University Header -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-link" aria-label="CSJMU Kanpur Showcase Homepage">
+        <img src="assets/csjmu-logo.png" alt="CSJMU University Emblem" class="brand-logo" onerror="this.onerror=null; this.src='assets/csjmu-emplem.png';">
+        <div class="brand-info">
+          <span class="brand-name">Chhatrapati Shahu Ji Maharaj University, Kanpur</span>
+          <span class="brand-sub">M.Sc. Mathematics with AI &amp; Data Science</span>
+        </div>
+      </a>
+
+      <div class="header-actions">
+        <!-- Live Status Pill -->
+        <button type="button" id="headerLivePill" class="live-pill" aria-label="Current live submissions count" title="Live Submissions">
+          <span class="live-dot" aria-hidden="true"></span>
+          <span id="headerLiveCount">-- Live</span>
+        </button>
+
+        <!-- Mobile / Navigation Menu Toggle -->
+        <button type="button" id="menuToggle" class="menu-toggle" aria-label="Toggle navigation drawer" aria-expanded="false" aria-controls="navDrawer">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navigation Drawer Backdrop & Modal -->
+  <div id="navBackdrop" class="nav-backdrop" aria-hidden="true"></div>
+  <aside id="navDrawer" class="nav-drawer" role="dialog" aria-modal="true" aria-label="Site Navigation">
+    <div class="drawer-header">
+      <span class="drawer-title">Navigation</span>
+      <button type="button" id="drawerClose" class="drawer-close" aria-label="Close menu">&times;</button>
+    </div>
+    <nav class="drawer-nav">
+      <a href="index.html" class="drawer-link">
+        <span>Assignment Showcase</span>
+        <span>&rarr;</span>
+      </a>
+      <a href="index.html#projectsGrid" class="drawer-link">
+        <span>All Teams</span>
+        <span>&darr;</span>
+      </a>
+      <a href="https://csjmu.ac.in" target="_blank" rel="noopener noreferrer" class="drawer-link">
+        <span>CSJMU Official Portal</span>
+        <span>&#8599;</span>
+      </a>
+    </nav>
+    <div class="drawer-footer">
+      <p><strong>Programme:</strong> M.Sc. Mathematics with AI &amp; DS</p>
+      <p style="margin-top: 0.35rem;">Academic Session: 2026-27</p>
+      <p style="margin-top: 0.35rem; font-size: 0.75rem;">Department of Mathematics, School of Basic Sciences</p>
+    </div>
+  </aside>
+
+  <!-- Main Content Container -->
+  <main class="container" role="main">
+
+    <!-- Breadcrumb Navigation -->
+    <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+      <a href="index.html">All Projects</a>
+      <span class="breadcrumb-separator" aria-hidden="true">&gt;</span>
+      <span id="breadcrumbProjectId" class="breadcrumb-current">...</span>
+    </nav>
+
+    <!-- Loading State -->
+    <div id="loadingIndicator" class="loading-indicator" role="status" aria-live="polite">
+      <div class="spinner" aria-hidden="true"></div>
+      <span>Loading project details...</span>
+    </div>
+
+    <!-- Project Detail Dynamic Container -->
+    <div id="projectDetailContainer">
+      <!-- Injected by project.js -->
+    </div>
+
+  </main>
+
+  <!-- Academic Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p class="footer-academic-line">
+        Machine Learning Practical Assignment &mdash; Data Preprocessing &amp; Feature Selection
+      </p>
+      <p class="footer-university-line">
+        Chhatrapati Shahu Ji Maharaj University, Kanpur
+      </p>
+      <p class="footer-refresh-meta">
+        M.Sc. Mathematics with Artificial Intelligence &amp; Data Science &bull; Academic Session 2026-27
+      </p>
+    </div>
+  </footer>
+
+  <!-- Firebase SDKs for Real-time Visitor Presence -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-database-compat.js"></script>
+  <script src="js/firebase-config.js"></script>
+  <script src="js/visitor-presence.js"></script>
+
+  <!-- Application Scripts -->
+  <script src="js/data-service.js"></script>
+  <script src="js/project.js"></script>
+</body>
+</html>
