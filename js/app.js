@@ -520,6 +520,9 @@
       navBackdrop.classList.add('is-open');
       if (menuToggle) menuToggle.setAttribute('aria-expanded', 'true');
       document.body.style.overflow = 'hidden';
+      if (drawerClose) {
+        setTimeout(() => drawerClose.focus(), 50);
+      }
     }
   }
 
@@ -527,7 +530,10 @@
     if (navDrawer && navBackdrop) {
       navDrawer.classList.remove('is-open');
       navBackdrop.classList.remove('is-open');
-      if (menuToggle) menuToggle.setAttribute('aria-expanded', 'false');
+      if (menuToggle) {
+        menuToggle.setAttribute('aria-expanded', 'false');
+        menuToggle.focus();
+      }
       document.body.style.overflow = '';
     }
   }
